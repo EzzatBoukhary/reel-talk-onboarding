@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/padding_movies_shows">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/movie_item_imagebutton"
+            android:layout_width="180dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:contentDescription="movieIcon"
+            tools:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:id="@+id/selected_border_imageview"
+            android:layout_width="180dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/selected_card" />
+
+        <ImageView
+            android:id="@+id/selected_checkmark_imageview"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|top"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/selected_item_check" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movie_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Placeholder Title (2023)" />
+</LinearLayout>

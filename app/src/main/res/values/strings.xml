@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="reel_talk_capital">REEL TALK</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="firstWelcomeText">Welcome to Reel Talk, a community designed for true film and TV Show fans</string>
+    <string name="secondWelcomeText">Discover and discuss your favorite films, movies, and shows</string>
+    <string name="thirdWelcomeText">Let\'s get started!</string>
+    <string name="login_message">Already have an account? Log in</string>
+    <string name="continue_button_text">Continue</string>
+
+    <string name="genre_selection_title">Select your top 3 genres for movies and TV</string>
+    <string name="genres_selected_text">%1$d/3 selected</string>
+
+    <string name="movie_selection_title">Select your top 5 movies</string>
+    <string name="movies_selected_text">%1$d/5 selected</string>
+
+    <string name="shows_selection_title">Select your top 5 TV shows</string>
+    <string name="shows_selected_text">%1$d/5 selected</string>
+
+    <string name="search_text">Search</string>
+    <string name="movies_shows_search_text">Search to add more</string>
+    <string name="guidelines_agree_text">I agree</string>
+    <string name="guidelines_body_text">Welcome, we’re so excited to have you here!\n\nAt Reel Talk, we believe that every individual brings something unique to our community. We are committed to fostering a safe and respectful environment for everyone to engage in exciting conversations.\n\nIn our mission to encourage respect and belongingness, we ask that you join us by adhering to our guidelines. We take these guidelines seriously, and failure to adhere to them may result in being banned from our community. Thanks for your cooperation.\n\nWith love,\nThe Reel Talk Team</string>
+    <string name="guidelines_title_text">🚧 Keep it reel, but be kind</string>
+    <string name="search_button_icon_description">search button icon</string>
+</resources>
